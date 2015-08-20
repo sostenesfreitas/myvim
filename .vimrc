@@ -76,9 +76,8 @@ let mapleader = ","
 noremap <leader>q :bp<CR>
 noremap <leader>w :bn<CR>
 
-" save with ctrl+s
-nmap <c-s> :w<CR>
-imap <c-s> <Esc>:w<CR>a
+ " adjust lightline
+ set laststatus=2
 
 " search settings
 set incsearch        " find the next match as we type the search
