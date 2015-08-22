@@ -82,8 +82,6 @@ noremap <leader>w :bn<CR>
 " search settings
 set incsearch        " find the next match as we type the search
 set hlsearch         " hilight searches by default
-" use ESC to remove search higlight
-nnoremap <esc> :noh<return><esc>
 
 " suggestion for normal mode commands
 set wildmode=list:longest
