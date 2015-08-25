@@ -50,8 +50,8 @@ syntax on
 " and show line numbers
 set number
 
-" use ESC to remove search higlight
--nnoremap <esc> :noh<return><esc>
+" use ESC to remove search highlight
+nnoremap <esc> :noh<return><esc>
 
 " reload files changed outside vim
 set autoread         
